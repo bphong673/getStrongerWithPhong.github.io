@@ -1,0 +1,25 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    box-sizing: border-box;
+    justify-content: space-around;
+}
+
+body, html {
+    width: 100vw;
+    height: 100vh;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    
+}
+
+.buttons {
+    width: 40%;
+    float: left;
+    display: flex;
+    margin-left: auto;
+}
