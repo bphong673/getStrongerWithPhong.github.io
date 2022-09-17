@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,400;1,900&display=swap');
+
+
+
 * {
     list-style: none;
     text-decoration: none;
     color: black;
     box-sizing: border-box;
     justify-content: space-around;
+    margin: 0;
+    padding: 0;
 }
 
 body, html {
@@ -12,14 +18,29 @@ body, html {
 }
 
 .navbar {
-    width: 100%;
+    width: 100vw;
+    height: 5vh;
     display: flex;
     
 }
 
 .buttons {
-    width: 40%;
-    float: left;
+    width: 30%;
+    
     display: flex;
-    margin-left: auto;
+    justify-content: space-around;
+    margin-left: 60%;
+}
+
+.buttons li a {
+    color: white;
+}
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+}
+.hierarchy {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 5vw;
+    text-shadow: 2px 2px rgb(114, 114, 114);
 }
