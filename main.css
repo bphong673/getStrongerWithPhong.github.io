@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,400;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,400;1,900&family=Rubik+Dirt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bowlby+One+SC&family=Roboto:ital,wght@0,400;1,900&family=Rubik+Dirt&display=swap');
 
 
 * {
@@ -25,11 +26,11 @@ body, html {
 }
 
 .buttons {
-    width: 30%;
+    width: 35vw;
     
     display: flex;
     justify-content: space-around;
-    margin-left: 60%;
+    margin-left: 55vw;
 }
 
 .buttons li a {
@@ -39,8 +40,46 @@ body {
     background-image: url('background.jpg');
     background-size: cover;
 }
+
+
+
+
 .hierarchy {
-    font-family: 'Bebas Neue', cursive;
-    font-size: 5vw;
+    width: 50vw;
+    color: rgba(255, 255, 255, 0.829);
+    font-family: 'Bowlby One SC', cursive;
+    
+
+
+    
+    letter-spacing: 0.2vw;
+    margin-left: 2vw;
+    font-size: 3vh;
     text-shadow: 2px 2px rgb(114, 114, 114);
+}
+@keyframes floating {
+  
+}
+
+
+.hierarchy span {
+    
+    text-shadow: 0 0 100px rgb(217, 255, 0);
+-webkit-text-stroke: black 2px;
+  
+color: yellow;
+font-size: 6vh;
+background-clip: text;
+    animation: infinite floating 20s;
+}
+
+
+.sub-hierarchy {
+    width: 30vw;
+   
+   background: rgba(0, 0, 0, 0.575);
+    margin-left: 5vw;
+    font-size: 2vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
 }
